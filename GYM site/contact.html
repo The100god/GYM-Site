@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <body>
+    <!-- navbar -->
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="image/logo.png" alt="gym logo" />
+        <!-- <div>GYM site</div> -->
+      </div>
+      <!-- middel box for navbar -->
+      <div class="mid">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <ul class="navbar">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li><a href="." >Home</a></li>
+          <li><a href="/AboutUs.html" >About us</a></li>
+          <li><a href="/FitnessCalculator.html"  >Fitness calculator</a></li>
+          <li><a href="/contact.html" class="active">Contact us</a></li>
+        </ul>
+
+        <!-- for responsive nevigation -->
+        <!-- <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>-->
+      </div> 
+      <!-- right box for search/buttons -->
+      <div class="right">
+        <!-- <button class="btn">Call us</button> -->
+        <button class="btn"><a href="./login.html">Login</a></button>
+      </div>
+    </header>
+
+    <div class="contact">
+      <h1>Contact Me</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quae?</p>
+      <form action="">
+          <label class="form" for="name">Name: </label>
+          <input class="form" type="text" name="name" id="name" placeholder="Enter your full name." value="">
+          <label class="form" for="mail">Gmail: </label>
+          <input class="form" type="email" name="mail" id="mail" value="">
+          <label class="form" for="message">Message: </label>
+          <textarea class="form" id="message" rows="7" cols="50" placeholder="Enter your text here..." value=""></textarea>
+          <input type="submit" value="submit" >
+      </form>
+    </div>
+
+    <footer>copyright &copy: Saurabh Goyal 2023. All rights reserved!</footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

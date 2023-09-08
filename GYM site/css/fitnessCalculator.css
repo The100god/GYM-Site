@@ -1,0 +1,110 @@
+.containar {
+  /* box-sizing: border-box; */
+
+  border: 2px solid white;
+  margin: 100px auto;
+  padding: 25px 15px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.innerContainor{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    flex-flow: wrap;
+}
+
+.genral{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    margin: 30px auto;
+    width: 80%;
+    
+}
+
+.genInfo{
+
+    margin-left: 10px;
+}
+
+.cal {
+  /* background-color: aqua; */
+  /* display: flex; */
+  max-width: 30vw;
+  border: 2px solid rgb(250, 246, 246);
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+.bmi, .rmr{
+    line-height: 30px;
+}
+
+input[type=text]{
+    display: inline;
+    /* height: 80%; */
+    width: 80%;
+    height: 30px;
+    margin:10px 0px ;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.text{
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.timeclass{
+    padding:5px 8px;
+    
+    
+}
+
+.calculate{
+    padding: 5px;
+    border: 2px solid greenyellow;
+    width: 42%;
+    margin: 10px auto;
+    font-size: 2vw;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.calculate:hover{
+    border: 3px solid rgb(115, 187, 7);
+}
+
+.result{
+    display: none;
+}
+
+
+
+.finalResilt{
+    background-color: white;
+    color: black;
+    width: 22%;
+    margin: 20px auto;
+    font-size: 1.7vw;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.status{
+    padding:0px 5px;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-size: 2vw;
+}

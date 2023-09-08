@@ -1,0 +1,21 @@
+body{
+    /* background: whitesmoke; */
+    background-attachment: fixed;
+
+}
+.header{
+    background-color: #000000;
+    height:8%;
+
+}
+
+.containar {
+    background: rgb(244, 222, 222);
+    border: 2px solid rgb(14, 13, 13);
+    margin: 10% auto;
+    padding: 25px 15px;
+    color: rgb(6, 5, 5);
+    width: 70%;
+    border-radius: 15px;
+    font-size: 1.3rem;
+}
